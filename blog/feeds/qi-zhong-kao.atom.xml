@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017 協同產品設計實習 設計二甲 王奕智</title><link href="./" rel="alternate"></link><link href="./feeds/qi-zhong-kao.atom.xml" rel="self"></link><id>./</id><updated>2017-04-20T12:08:00+08:00</updated><entry><title>40423105四連桿機構協同 Trace Point 查驗</title><link href="./40423105si-lian-gan-ji-gou-xie-tong-trace-point-cha-yan.html" rel="alternate"></link><published>2017-04-20T12:08:00+08:00</published><updated>2017-04-20T12:08:00+08:00</updated><author><name>40423105</name></author><id>tag:,2017-04-20:./40423105si-lian-gan-ji-gou-xie-tong-trace-point-cha-yan.html</id><summary type="html">&lt;p&gt;1.四連桿機構協同 Trace Point 查驗&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017 協同產品設計實習 設計二甲 張勝雄</title><link href="./" rel="alternate"></link><link href="./feeds/qi-zhong-kao.atom.xml" rel="self"></link><id>./</id><updated>2017-04-20T12:08:00+08:00</updated><entry><title>40423130四連桿機構協同 Trace Point 查驗</title><link href="./40423130si-lian-gan-ji-gou-xie-tong-trace-point-cha-yan.html" rel="alternate"></link><published>2017-04-20T12:08:00+08:00</published><updated>2017-04-20T12:08:00+08:00</updated><author><name>40423130</name></author><id>tag:,2017-04-20:./40423130si-lian-gan-ji-gou-xie-tong-trace-point-cha-yan.html</id><summary type="html">&lt;p&gt;1.四連桿機構協同 Trace Point 查驗&lt;/p&gt;
 
 
 &lt;h2&gt;2.四連桿機構協同 Trace Point 查驗&lt;/h2&gt;
-&lt;p&gt;&lt;p&gt;40423105四連趕機構 Trace Point 查驗&lt;/p&gt;
+&lt;p&gt;.&lt;p&gt;40423130四連趕機構 Trace Point 查驗&lt;/p&gt;
 &lt;p&gt;四連趕機構製作影片&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ujtzmmfOTFY" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src="https://player.vimeo.com/video/214503480" width="640" height="341" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214503480"&gt;四連桿繪製&lt;/a&gt; from &lt;a href="https://vimeo.com/user61522994"&gt;40423130&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;Trace Point 查驗圖片&lt;/p&gt;
-&lt;a href="http://imgur.com/F54DyTC"&gt;&lt;img src="http://i.imgur.com/F54DyTC.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+
+&lt;p&gt;&lt;a href="http://imgur.com/1QlmC1f"&gt;&lt;img src="http://i.imgur.com/1QlmC1f.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;利用Excel查驗 Trace Point &lt;/p&gt;
-&lt;a href="http://imgur.com/TjvWiOp"&gt;&lt;img src="http://i.imgur.com/TjvWiOp.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+
+&lt;p&gt;&lt;a href="http://imgur.com/nCe7tpR"&gt;&lt;img src="http://i.imgur.com/nCe7tpR.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;利用程式碼查驗 Trace Point &lt;/p&gt;
+
 &lt;script type="text/javascript" 
     src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
-&lt;/script&gt;&lt;/p&gt;
+&lt;/script&gt;
+
 &lt;!-- 啟動 Brython --&gt;
 
 &lt;script&gt;
@@ -37,7 +42,7 @@ canvas = doc["fourbar"]
 container1 = doc['container1']
 ctx = canvas.getContext("2d")
 
-fourbar_data = open("./../work/0423.csv").read()
+fourbar_data = open("./../work/40423130_ag1.csv").read()
 fourbar_list = fourbar_data.splitlines()
 #container1 &lt;= fourbar_list[0]
 # 以下可以利用 ctx 物件進行畫圖
